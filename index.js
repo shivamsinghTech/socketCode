@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 const http = require('http');
 
 const app = express();
-
+console.log("socket run on server shivamTECH")
 // !todo
 const server = http.createServer(app);
 // !imp
